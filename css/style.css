@@ -982,6 +982,10 @@ a.active {
     .memini .project_btn {
         margin-top: 65px;
     }
+    .about-img-div {
+        margin: 105px auto 0;
+    }
+
 }
 
 @media (max-width: 768px) {
@@ -1045,6 +1049,9 @@ a.active {
     .about-border {
         display: none;
     }
+    .about-img-div {
+        margin: 55px auto 0;
+    }
 }
 
 @media (max-width: 425px) {
@@ -1067,6 +1074,17 @@ a.active {
         top: 80%;
     }
 
+}
+@media (max-width: 413px){
+    #about .tag2 li{
+        padding-bottom: 9px;
+    }
+    #about .tag li{
+        width: 40%;
+    }
+    #about .tag li:nth-child(3){
+        padding-top: 9px;
+    }
 }
 
 @media (max-width: 374px) {
