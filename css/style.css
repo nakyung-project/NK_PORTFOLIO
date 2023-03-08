@@ -1068,10 +1068,11 @@ a.active {
     }
 
     #home p {
-        transform: rotate(0deg);
-        
+        transform: rotate(0deg) translateX(-50%);
+        width: 320px;
         position: absolute;
         top: 80%;
+        left: 50%;
     }
 
 }
