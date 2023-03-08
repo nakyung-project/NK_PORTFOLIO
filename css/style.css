@@ -343,17 +343,6 @@ a.active {
     margin-bottom: 80px;
     padding-left: 15px;
     font-family: 'Noto Sans KR', 'sans-serif';
-
-
-}
-
-#home h1 b {
-    font-family: 'Cafe24Shiningstar';
-    font-weight: 400;
-    font-size: 85px;
-    /* border-bottom: 3px solid white; */
-
-    color: #333;
 }
 
 #home h5 {
@@ -454,9 +443,11 @@ a.active {
 .about-img-div {
     margin: 215px auto 0;
 }
-.img-responsive{
+
+.img-responsive {
     float: none;
 }
+
 .about-border {
     position: absolute;
     /*border: 5px solid #f61e49;*/
@@ -473,7 +464,8 @@ a.active {
 }
 
 
-.tag li:hover, .tag2 li:hover{
+.tag li:hover,
+.tag2 li:hover {
     color: #f61e49;
     transition: all 0.3s;
 }
@@ -886,23 +878,26 @@ a.active {
 #contact i {
     font-size: 50px;
 }
-#contact .col-md-4 p{
+
+#contact .col-md-4 p {
     position: relative;
     display: inline-block;
 }
-#contact .col-md-4 p::after{
-	content: "";
-	position: absolute;
-	bottom: -4px;
-	left: 0;
-	background-color: #f61e49;
-	width: 100%;
-	height: 1.5px;
-	transform: scaleX(0);
-	transition: all 0.3s linear;
-	transform-origin: left;
+
+#contact .col-md-4 p::after {
+    content: "";
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    background-color: #f61e49;
+    width: 100%;
+    height: 1.5px;
+    transform: scaleX(0);
+    transition: all 0.3s linear;
+    transform-origin: left;
 }
-#contact .col-md-4:hover p::after{
+
+#contact .col-md-4:hover p::after {
     transform: scaleX(1);
 }
 
@@ -938,33 +933,32 @@ a.active {
         min-width: 500px;
         font-size: 48px;
     }
-    #home h1 img{
-        width: 106px;
+
+    #home h1 img {
+        width: 98px;
     }
-    #home h1 b {
-        font-size: 70px;
-    }
+
 
     .w20 {
         width: 50%;
     }
 }
-@media (max-width: 1200px){
-    .project_btn_box{
+
+@media (max-width: 1200px) {
+    .project_btn_box {
         padding-top: 18px;
     }
 }
+
 @media (max-width: 1090px) {
     #home h1 {
         min-width: 500px;
         font-size: 43px;
-        
+
     }
-    #home h1 img{
-        width: 100px;
-    }
-    #home h1 b {
-        font-size: 65px;
+
+    #home h1 img {
+        width: 93px;
     }
 }
 
@@ -976,14 +970,17 @@ a.active {
     .project_btn {
         margin: 2px;
     }
-    #projects h3{
+
+    #projects h3 {
         margin-top: 0;
     }
-    #projects .item_info p{
+
+    #projects .item_info p {
         margin-top: 25px;
     }
-    .memini .project_btn{
-        margin-top:65px;
+
+    .memini .project_btn {
+        margin-top: 65px;
     }
 }
 
@@ -992,25 +989,35 @@ a.active {
         width: 90%;
         left: 2em;
     }
+
     .about-img-div {
         margin: 80px auto 0;
     }
-    .memini .project_btn{
-        margin-top:0;
+
+    .memini .project_btn {
+        margin-top: 0;
     }
 }
-@media (max-width: 610px) {
+
+@media (max-width: 612px) {
     #home h1 {
         min-width: 320px;
         font-size: 38px;
-        background-size: 93px;
+
     }
 
-    #home h1 b {
-        font-size: 60px;
+    #home h1 img {
+        width: 83px;
     }
+
+    #home h1 span {
+        display: block;
+    }
+
+
 
 }
+
 @media (max-width: 500px) {
     h1 {
         font-size: 50px;
@@ -1034,6 +1041,7 @@ a.active {
     .w20 {
         width: 100%;
     }
+
     .about-border {
         display: none;
     }
@@ -1051,7 +1059,14 @@ a.active {
     nav li a {
         font-size: 10px;
     }
-   
+
+    #home p {
+        transform: rotate(0deg);
+        
+        position: absolute;
+        top: 80%;
+    }
+
 }
 
 @media (max-width: 374px) {
@@ -1062,8 +1077,10 @@ a.active {
     nav {
         display: none;
     }
+    #home p{
 
-    
+    }
+
 }
 
 @media (max-width: 320px) {
