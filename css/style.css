@@ -1085,6 +1085,9 @@ a.active {
     #about .tag li:nth-child(3){
         padding-top: 9px;
     }
+    #about .tag2{
+        padding-bottom: 68px;
+    }
 }
 
 @media (max-width: 374px) {
